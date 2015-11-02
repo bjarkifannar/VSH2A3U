@@ -1,4 +1,5 @@
 @import 'header';
+@import 'footer';
 
 * {
 	box-sizing: border-box;
@@ -11,10 +12,6 @@ html, body {
 
 ul {
 	list-style: none;
-}
-.footer-list {
-	display: inline-block;
-	border-top: solid black 1px;
 }
 .center-text {
 	text-align: center;
