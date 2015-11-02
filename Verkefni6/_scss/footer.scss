@@ -1,4 +1,13 @@
+.footer {
+	display: table-row;
+	height: 0;
+}
+
 .footer-list {
-	display: inline-block;
-	border-top: solid black 1px;
+	margin: 0 auto;
+	padding: 0;
+
+	li {
+		padding: .5em 0;
+	}
 }

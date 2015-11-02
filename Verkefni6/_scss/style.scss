@@ -1,5 +1,6 @@
 @import 'header';
 @import 'footer';
+@import 'main';
 
 * {
 	box-sizing: border-box;
@@ -8,6 +9,9 @@
 html, body {
 	margin: 0;
 	padding: 0;
+	width: 100%;
+	height: 100%;
+	display: table;
 }
 
 ul {
@@ -15,4 +19,12 @@ ul {
 }
 .center-text {
 	text-align: center;
+}
+
+.floatleft {
+	float: left;
+}
+
+.col-1-3 {
+	width: 33%;
 }
