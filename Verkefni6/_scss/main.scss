@@ -1,6 +1,5 @@
 .main {
 	width: 100%;
-	height: 100%;
 }
 
 .index-col {
@@ -9,7 +8,6 @@
 	text-align: center;
 
 	.ghost-button {
-		margin-top: 50%;
 		width: 8em;
 		height: 3em;
 		border: 2px solid white;
@@ -27,20 +25,41 @@
 	}
 }
 
-.index-col-left {
-	background-image: url("../img/index-left.jpg");
-	background-size: 100%;
-	background-repeat: no-repeat;
-}
-
 .index-col-center {
 	background-image: url("../img/index-center.jpg");
+}
+
+.index-col-right, .index-col-left {
+	display: none;
+	visibility: hidden;
+}
+
+.index-col {
+	background-color: lighten(black, 25%);
 	background-size: 100%;
 	background-repeat: no-repeat;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: auto;
 }
 
 @media screen and (min-width: 40em) {
 	.index-col {
-		min-width: 13.33em;
+		width: 33.333%;
+		background-color: black;
+	}
+
+	.index-col-left, .index-col-right {
+		display: block;
+		visibility: visible;
+	}
+
+	.index-col-left {
+		background-image: url("../img/index-left.jpg");
+	}
+
+	.index-col-right {
+		background-image: url("../img/index-right.jpg");
 	}
 }

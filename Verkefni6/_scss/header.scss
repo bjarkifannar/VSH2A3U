@@ -21,7 +21,8 @@ $headerBgColor: black;
 	background-color: $headerBgColor;
 
 	li {
-		display: inline-block;
+		width: 100%;
+		display: block;
 	}
 }
 
@@ -35,4 +36,14 @@ $headerBgColor: black;
 
 .change-bg:hover {
 	background-color: lighten($headerBgColor, 25%);
+}
+
+@media screen and (min-width: 40em) {
+	.header-list {
+		li {
+			width: auto;
+			text-align: center;
+			display: inline-block;
+		}
+	}
 }
