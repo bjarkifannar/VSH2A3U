@@ -3,19 +3,23 @@
 }
 
 .index-col {
-	height: 100%;
-	min-height: 55em;
-	text-align: center;
+	width: 100%;
+	background-color: black;
+	margin: 0;
+	padding: 0.2em;
 
 	.ghost-button {
 		width: 8em;
 		height: 3em;
+		margin: 0;
+		padding: 0;
 		border: 2px solid white;
 		border-radius: 5px;
 		background-color: transparent;
 		color: white;
 		transition: all .5s;
 		outline: none;
+		text-align: center;
 
 		&:hover {
 			background-color: white;
@@ -23,43 +27,41 @@
 			cursor: pointer;
 		}
 	}
-}
 
-.index-col-center {
-	background-image: url("../img/index-center.jpg");
-}
+	.index-buttons {
+		height: 0;
+		position: relative;
+		bottom: 3em;
+	}
 
-.index-col-right, .index-col-left {
-	display: none;
-	visibility: hidden;
-}
+	img {
+		position: relative;
+		top: 0;
+		left: 0;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
 
-.index-col {
-	background-color: lighten(black, 25%);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	height: auto;
+	.event-name {
+		width: 80%;
+		position: relative;
+		bottom: 5em;
+		left: 0;
+		margin: 0;
+		padding: 0 0 0 1em;
+		font-size: 80%;
+		color: white;
+		background-color: black;
+	}
 }
 
 @media screen and (min-width: 40em) {
 	.index-col {
 		width: 33.333%;
-		background-color: black;
-	}
 
-	.index-col-left, .index-col-right {
-		display: block;
-		visibility: visible;
-	}
-
-	.index-col-left {
-		background-image: url("../img/index-left.jpg");
-	}
-
-	.index-col-right {
-		background-image: url("../img/index-right.jpg");
+		.event-name {
+			font-size: 120%;
+		}
 	}
 }
