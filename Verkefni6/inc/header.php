@@ -4,4 +4,5 @@
 		<li><a href="index.php" class="header-link change-bg link-padding">Home</a></li>
 		<li><a href="about.php" class="header-link change-bg link-padding">About</a></li>
 	</ul>
+	<script type="text/javascript" src="js/header.js"></script>
 </header>
