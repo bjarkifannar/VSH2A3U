@@ -10,7 +10,7 @@
 			require "inc/header.php";
 		?>
 		<div class="buy-div">
-			<img src="ticket-vip.png">
+			<img src="img/ticket-vip.png">
 			<ul>
 				<li class="buy-title">Normal</li>
 				<li class="buy-price">$60</li>
@@ -24,7 +24,7 @@
 			</ul>
 		</div>
 		<div class="buy-div">
-			<img src="ticket-normal.png">
+			<img src="img/ticket-normal.png">
 			<ul>
 				<li class="buy-title">VIP</li>
 				<li class="buy-price">$200</li>
@@ -38,7 +38,7 @@
 			</ul>
 		</div>
 		<div class="buy-div">
-			<img src="ticket-front.png">
+			<img src="img/ticket-front.png">
 			<ul>
 				<li class="buy-title">Frony</li>
 				<li class="buy-price">$80</li>

@@ -1,7 +1,19 @@
 .buy-select{
-	background-color: black;
-	color: white;
 }
 .buy-div{
-	display: inline;
+	background-color: black;
+	color: white;
+	padding: 1em;
+
+	img {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 40em) {
+	.buy-div{
+		img {
+			width: 10em;
+		}
+	}
 }

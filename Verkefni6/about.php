@@ -12,7 +12,7 @@
 		<div class="main">
 			<h4 class="center-text">Tickets</h4>
 			<p>
-				This is a side where you can get tickets to go on all then best shows in iceland.
+				This is a side where you can get tickets to go on all then best shows in Iceland.
 			</p>
 			<p>
 				Gul gabel gaybel
