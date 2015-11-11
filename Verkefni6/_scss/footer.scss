@@ -1,5 +1,7 @@
+$footerColor: #9C27B0;
+
 .footer {
-	background-color: black;
+	background-color: $footerColor;
 	color: white;
 	display: table-row;
 	height: 0;

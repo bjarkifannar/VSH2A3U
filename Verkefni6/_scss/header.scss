@@ -1,4 +1,4 @@
-$headerBgColor: black;
+$headerBgColor: #9C27B0;
 
 .header {
 	display: table-row;
@@ -6,7 +6,7 @@ $headerBgColor: black;
 	
 	img {
 		height: 3em;
-		padding: 0 .5em;
+		padding: .5em;
 	}
 
 	.link-padding {
@@ -41,6 +41,9 @@ $headerBgColor: black;
 @media screen and (min-width: 40em) {
 	.header-list {
 		li {
+			position: relative;
+			top: 0;
+			margin: 0;
 			width: auto;
 			text-align: center;
 			display: inline-block;
