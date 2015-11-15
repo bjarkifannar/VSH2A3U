@@ -1,7 +1,8 @@
 <footer class="footer">
 	<ul class="footer-list">
-		<li><b>Email:</b> skalmold@skalmold.is</li>
-		<li><b>General Manager:</b> stijn@edgemanagement.be | www.edgemanagement.be</li>
-		<li><b>Booking:</b> merle@dragon-productions.com | www.dragon-productions.eu</li>
+		<li><b>Name:</b>Tickets</li>
+		<li><b>Email:</b>Tickets@gmail.com</li>
+		<li><b>Phone:</b>354-820-7291</li>
+		<li><b>Heimilisfang:</b>Skólavörðuholti 101 Reykjavík</li>
 	</ul>
 </footer>
