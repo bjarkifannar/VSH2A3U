@@ -18,6 +18,10 @@
 				Gul gabel gaybel
 			</p>
 		</div>
+		<div>
+			<h4 class="center=text">Heimildir</h4>
+			<p></p>
+		</div>
 		<?php
 			require "inc/footer.php";
 		?>
