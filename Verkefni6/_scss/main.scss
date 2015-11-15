@@ -15,7 +15,7 @@
 		padding: 0;
 		border: 2px solid white;
 		border-radius: 5px;
-		background-color: transparent;
+		background-color: rgba(0, 0, 0, 0.5);
 		color: white;
 		transition: all .5s;
 		outline: none;
@@ -44,7 +44,7 @@
 	}
 
 	.event-name {
-		width: 80%;
+		width: 100%;
 		position: relative;
 		bottom: 6.5em;
 		left: 0;
@@ -56,18 +56,10 @@
 	}
 }
 
-@media screen and (min-width: 40em) {
-	.index-col {
-		width: 50%;
-	}
-}
-
 @media screen and (min-width: 45em) {
 	.index-col {
-		width: 33.333%;
-
 		.event-name {
-			font-size: 120%;
+			font-size: 110%;
 		}
 	}
 }

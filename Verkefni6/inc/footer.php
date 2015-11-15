@@ -8,35 +8,26 @@
 			<table class="contact-table">
 				<tr>
 					<td>
-						<label for="name">Name*:</label>
-					</td>
-					<td>
-						<input type="text" name="name">
+						<input type="text" name="name" placeholder="Name*">
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<label for="email">Email*:</label>
-					</td>
-					<td>
-						<input type="text" name="email">
+						<input type="text" name="email" placeholder="Email*">
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<label for="message">Message*:</label>
-					</td>
-					<td>
-						<textarea cols="25" rows="5"></textarea>
+						<textarea cols="25" rows="5" placeholder="Message*"></textarea>
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2">
+					<td>
 						<input type="button" name="submit" value="Send">
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2">
+					<td>
 						<p>* required field</p>
 					</td>
 				</tr>

@@ -22,6 +22,8 @@ $footerColor: #9C27B0;
 }
 
 .contact-table {
+	width: 100%;
+
 	input, textarea {
 		color: white;
 		background-color: transparent;
@@ -34,6 +36,10 @@ $footerColor: #9C27B0;
 
 	input[type="button"] {
 		background-color: darken($footerColor, 25%);
+	}
+
+	textarea {
+		resize: none;
 	}
 }
 
