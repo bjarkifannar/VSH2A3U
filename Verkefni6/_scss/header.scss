@@ -1,8 +1,12 @@
 $headerBgColor: #9C27B0;
+$mobileHeaderHeight: 11.4em;
+$headerHeight: 5em;
 
 .header {
 	display: table-row;
-	height: 0;
+	margin: 0;
+	padding: 0;
+	height: $mobileHeaderHeight;
 	
 	img {
 		height: 3em;
@@ -19,6 +23,9 @@ $headerBgColor: #9C27B0;
 	margin: 0;
 	padding: 0;
 	background-color: $headerBgColor;
+	position: absolute;
+	top: 0;
+	left: 0;
 
 	li {
 		width: 100%;
@@ -39,6 +46,10 @@ $headerBgColor: #9C27B0;
 }
 
 @media screen and (min-width: 40em) {
+	.header {
+		height: $headerHeight;
+	}
+
 	.header-list {
 		li {
 			position: relative;
@@ -48,45 +59,5 @@ $headerBgColor: #9C27B0;
 			text-align: center;
 			display: inline-block;
 		}
-		.hamburger
-		{
-		  background:none;
-		  position:absolute;
-		  top:0;
-		  right:0;
-		  line-height:45px;
-		  padding:0px 15px 0px 15px;
-		  color:#fff;
-		  border:0;
-		  font-size:1.4em;
-		  font-weight:bold;
-		  cursor:pointer;
-		  outline:none;
-		  z-index:10000000000000;
-		}
-		.cross
-		{
-		  background:none;
-		  position:absolute;
-		  top:0px;
-		  right:0;
-		  padding:0px 15px 0px 15px;
-		  color:#fff;
-		  border:0;
-		  font-size:3em;
-		  line-height:65px;
-		  font-weight:bold;
-		  cursor:pointer;
-		  outline:none;
-		  z-index:10000000000000;
-		}
-		.header-list{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#131313;  position:absolute; text-align:center;}
-		.header-list ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
-		.header-list li {display: block;   padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
-		.header-list li:hover{display: block;    background:#181818; padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
-		.header-list ul li a { text-decoration:none;  margin: 0px; color:#fff;}
-		.header-list ul li a:hover {  color: #fff; text-decoration:none;}
-		.header-list a{text-decoration:none; color:white;}
-		.header-list a:hover{text-decoration:none; color:white;}
 	}
 }

@@ -11,10 +11,10 @@
 		?>
 		<div class="main">
 			<h4 class="center-text">Tickets</h4>
-			<p>
+			<p class="center-text">
 				This is a side where you can get tickets to go on all then best shows in Iceland.
 			</p>
-			<p>
+			<p class="center-text">
 				Gul gabel gaybel
 			</p>
 		</div>

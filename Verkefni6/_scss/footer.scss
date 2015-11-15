@@ -15,3 +15,36 @@ $footerColor: #9C27B0;
 		padding: .5em 0;
 	}
 }
+
+.contact-div {
+	padding: 1em;
+	width: 100%;
+}
+
+.contact-table {
+	input, textarea {
+		color: white;
+		background-color: transparent;
+		border: 0;
+		border-bottom: 2px solid darken($footerColor, 25%);
+		outline: 0;
+		padding: .5em;
+		margin: 0;
+	}
+
+	input[type="button"] {
+		background-color: darken($footerColor, 25%);
+	}
+}
+
+@media screen and (min-width: 45em) {
+	.footer-list {
+		width: 20em;
+		float: left;
+	}
+
+	.contact-div {
+		width: 25em;
+		float: right;
+	}
+}
