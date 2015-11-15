@@ -1,21 +1,10 @@
-<footer class="footer">
-	<ul class="footer-list">
-<<<<<<< HEAD
-		<li><b>Name:</b>Tickets</li>
-		<li><b>Email:</b>Tickets@gmail.com</li>
-		<li><b>Phone:</b>354-820-7291</li>
-		<li><b>Heimilisfang:</b>Skólavörðuholti 101 Reykjavík</li>
-=======
-		<li><b>Email:</b> admin@dummy.com</li>
-		<li><b>Booking:</b> booking@dummy.com</li>
->>>>>>> origin/master
-	</ul>
+
 	<div class="contact-div">
 		<form accept-charset="UTF-8">
 			<table class="contact-table">
 				<tr>
 					<td>
-						<label for="name">Name*:</label>
+						<label for="name">Name: Tickets</label>
 					</td>
 					<td>
 						<input type="text" name="name">
@@ -23,7 +12,7 @@
 				</tr>
 				<tr>
 					<td>
-						<label for="email">Email*:</label>
+						<label for="email">Email: Tickets@gmail.com</label>
 					</td>
 					<td>
 						<input type="text" name="email">
@@ -31,7 +20,7 @@
 				</tr>
 				<tr>
 					<td>
-						<label for="message">Message*:</label>
+						<label for="message">Message: 354-820-7291</label>
 					</td>
 					<td>
 						<textarea cols="25" rows="5"></textarea>
@@ -50,4 +39,3 @@
 			</table>
 		</form>
 	</div>
-</footer>
