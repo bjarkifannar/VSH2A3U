@@ -1,5 +1,6 @@
 <footer class="footer">
 	<ul class="footer-list">
+<<<<<<< HEAD
 		<li><b>Email:</b> admin@dummy.com</li>
 		<li><b>Booking:</b> booking@dummy.com</li>
 	</ul>
@@ -34,4 +35,11 @@
 			</table>
 		</form>
 	</div>
+=======
+		<li><b>Name:</b>Tickets</li>
+		<li><b>Email:</b>Tickets@gmail.com</li>
+		<li><b>Phone:</b>354-820-7291</li>
+		<li><b>Heimilisfang:</b>Skólavörðuholti 101 Reykjavík</li>
+	</ul>
+>>>>>>> origin/master
 </footer>
