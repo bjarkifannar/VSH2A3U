@@ -45,7 +45,7 @@ $headerHeight: 5em;
 	background-color: lighten($headerBgColor, 25%);
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 48em) {
 	.header {
 		height: $headerHeight;
 	}
